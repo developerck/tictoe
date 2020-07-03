@@ -56,7 +56,8 @@
 	    function start(){
             $('#start').hide();
             $('#restart').show();	
-            tt.init({"bfn":function(){alert('before move occurs')},"afn":function(){alert('after move occurs')}});	
+            tt.init({"col":4,
+ "row":4,"bfn":function(){console.log('before move occurs')},"afn":function(){console.log('after move occurs')}});	
 		    }
 			
 	    function restart() {
